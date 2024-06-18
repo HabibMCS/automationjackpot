@@ -10,8 +10,8 @@ wget -O game.zip https://file.io/NlhcuXwEeqO9
 
 unzip game.zip
 
-mkdir -p ~/.config/autostart
-mv jackpot.desktop1 ~/.config/autostart/
+mkdir -p ~/.config/autostart/automation
+mv jackpot.desktop1 ~/.config/autostart/automation
 
 if [ -f requirements.txt ]; then
     sudo pip3 install -r requirements.txt
