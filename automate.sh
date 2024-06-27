@@ -10,7 +10,7 @@ wine --version
 
 # Create directories
 cd ~
-mkdir -p jackpot
+mkdir jackpot
 
 # Download and unzip the game
 cd jackpot
