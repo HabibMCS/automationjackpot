@@ -9,7 +9,7 @@ sudo apt install --install-recommends winehq-stable
 wine --version
 
 # Create directories
-cd ~
+cd ..
 mkdir jackpot
 
 # Download and unzip the game
@@ -18,7 +18,7 @@ wget -O game.zip https://file.io/m5l8QNOe99Ll
 unzip game.zip
 
 # Move run_test.sh to the correct location and make it executable
-chmod +x ~/jackpot/run_test.sh
+chmod +x ./run_test.sh
 sudo apt install python3-pip
 # Install Python requirements
 if [ -f requirements.txt ]; then
@@ -38,7 +38,7 @@ After=multi-user.target
 
 [Service]
 Type=simple
-ExecStart=/home/jorge/jackpot/run_test.sh
+ExecStart=/home/tcm/jackpot/run_test.sh
 Restart=on-failure
 User=jorge
 Environment=DISPLAY=:0
