@@ -14,7 +14,7 @@ mkdir jackpot
 
 # Download and unzip the game
 cd jackpot
-wget -O game.zip https://file.io/m5l8QNOe99Ll
+wget -O game.zip https://nustedupk0-my.sharepoint.com/:u:/g/personal/hsolangi_bee-57mcs_student_nust_edu_pk/EZkdpRMcwK5CsdGqa3ao2swBwmNSfhSpjwPi_ToC_mrkDg?e=ApaTlI&download=1
 unzip game.zip
 
 # Move run_test.sh to the correct location and make it executable
