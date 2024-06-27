@@ -19,7 +19,7 @@ unzip game.zip
 
 # Move run_test.sh to the correct location and make it executable
 chmod +x ~/jackpot/run_test.sh
-
+sudo apt install python3-pip
 # Install Python requirements
 if [ -f requirements.txt ]; then
     sudo pip3 install -r requirements.txt
