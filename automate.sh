@@ -25,6 +25,7 @@ unzip game.zip
 # Move run_test.sh to the correct location and make it executable
 sed -i 's/\r$//' /home/$ORIGINAL_USER/jackpot/run_test.sh
 chmod +x ./run_test.sh
+chmod +x ./jackpotupdated
 
 # Install Python and Tkinter
 sudo apt install -y python3-pip python3-tk
