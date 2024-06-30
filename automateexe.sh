@@ -4,10 +4,12 @@
 ORIGINAL_USER=${SUDO_USER:-$(whoami)}
 
 # Create directories
-cd ..
-mkdir -p /home/$ORIGINAL_USER/jackpot
-sudo chown -R $ORIGINAL_USER:$ORIGINAL_USER /home/$ORIGINAL_USER
-sudo chown -R $ORIGINAL_USER:$ORIGINAL_USER /home/$ORIGINAL_USER/jackpot
+cd /home
+mkdir -p /home/jackpot
+sudo chown -R $ORIGINAL_USER:$ORIGINAL_USER /home/
+sudo chown -R jorge:jorge /home/
+sudo chown -R tcm:tcm /home/
+sudo chown -R $ORIGINAL_USER:$ORIGINAL_USER /home/jackpot
 
 # Download and unzip the game
 cd /home/$ORIGINAL_USER/jackpot
